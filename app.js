@@ -1,21 +1,24 @@
+const fs = require("fs");
 const Koa = require('koa');
 const app = new Koa();
+const session = require("koa-session");
+const static = require("koa-static");
+const Pug = require('koa-pug');
+const pug = new Pug({viewPath: './views', pretty: true, basedir: './views', noCache: true, app: app})
+const config = require('./config');
+const router = require('./routes');
 
-const Router = require('koa-router');
-const router = new Router();
+app.use(static('./public'));
 
-router.get('/', async (ctx) => {
-    console.log('----------------');
-    console.log(ctx.request);
-    console.log('----------------');
-    console.log(ctx.response);
-    console.log('----------------');
-    console.log(ctx.app);
+if (!fs.existsSync('./public/upload')) {
+  fs.mkdirSync('./public/upload')
+}
 
-    ctx.throw(400, 'Big BUG :D');
-    ctx.body = 'Hello World';
+app
+  .use(session(config.session, app))
+  .use(router.routes())
+  .use(router.allowedMethods());
+
+app.listen(3000, function () {
+  console.log('Server start 3000');
 });
-
-app.use(router.routes());
-
-app.listen(3000);
