@@ -1,3 +1,5 @@
+// 00:38:25
+
 const fs = require("fs");
 const Koa = require('koa');
 const app = new Koa();
@@ -11,14 +13,14 @@ const router = require('./routes');
 app.use(static('./public'));
 
 if (!fs.existsSync('./public/upload')) {
-  fs.mkdirSync('./public/upload')
+    fs.mkdirSync('./public/upload')
 }
 
 app
-  .use(session(config.session, app))
-  .use(router.routes())
-  .use(router.allowedMethods());
+    .use(session(config.session, app))
+    .use(router.routes())
+    .use(router.allowedMethods());
 
 app.listen(3000, function () {
-  console.log('Server start 3000');
+    console.log('Server start 3000');
 });
