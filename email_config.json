@@ -1,11 +1,11 @@
 ﻿{
   "mail": {
-    "subject": "Loftschool 3: Сообщение с сайта",
+    "subject": "Loftschool 4: Сообщение с сайта",
     "smtp": {
       "service": "gmail",
       "auth": {
-        "user": "alexgrachev.rus@gmail.com",
-        "pass": "sup99M-nl"
+        "user": "youe_email@gmail.com",
+        "pass": "password"
       }
     }
   }
