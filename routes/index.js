@@ -3,11 +3,10 @@ const router = new Router();
 const koaBody = require('koa-body');
 const controllers = require('../controllers/');
 
-
 var ctrlAdmin = require('../controllers/admin');
 
-router.get('/admin', ctrlAdmin.admin);
 
+router.get('/admin', ctrlAdmin.admin);
 router.post('/admin/skills', koaBody(), ctrlAdmin.setSkills);
 
 

@@ -119,31 +119,28 @@ module.exports.contactMe_sendmail = async (ctx, next) => {
 
 
 
-    // smtpTransport.sendMail(mailOptions, function (error, info) {
-    //     //если есть ошибки при отправке - сообщаем об этом
-    //     if (!error) {
-    //         console.log("Message response: " + info.response);
-    //         console.log('Message sent: %s', info.messageId);
-    //         console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-    //
-    //         ctx.body = {
-    //             mes: "Письмо успешно отправлено!",
-    //             status: "OK"
-    //         };
-    //     } else {
-    //         console.log(error);
-    //         ctx.body = {
-    //             mes: `При отправке письма произошла ошибка!: ${error}`,
-    //             status: "Error"
-    //         };
-    //     }
-    //     smtpTransport.close();
-    // });
+    smtpTransport.sendMail(mailOptions, function (error, info) {
+        //если есть ошибки при отправке - сообщаем об этом
+        if (!error) {
+            console.log("Message response: " + info.response);
+            console.log('Message sent: %s', info.messageId);
+            console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
             ctx.body = {
                 mes: "Письмо успешно отправлено!",
                 status: "OK"
             };
+        } else {
+            console.log(error);
+            ctx.body = {
+                mes: `При отправке письма произошла ошибка!: ${error}`,
+                status: "Error"
+            };
+        }
+        smtpTransport.close();
+    });
+
+
 
     console.log('-----------------------');
 

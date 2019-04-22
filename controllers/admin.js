@@ -12,6 +12,11 @@ const skills = db
 
 
 module.exports.admin = async (ctx, next) => {
+
+    if (ctx.session.isAuthorized == false)
+        ctx.redirect('/');
+
+
     ctx.render('pages/admin',
         {
             authorised: ctx.session.isAuthorized,
