@@ -1,7 +1,11 @@
 footer.page-footer
   .container
     .lock
-      a.lock-inner(href="/login") Войти
+      if authorised
+        a.lock-inner(href="/logout") Выйти
+      else
+        a.lock-inner(href="/login") Войти
+
     .copyright © 2015, Это сайт Гомера, пожалуйста, не копируйте и не воруйте его
 
 

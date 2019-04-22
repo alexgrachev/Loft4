@@ -1,0 +1,36 @@
+extends ../layouts/main_layout.pug
+
+block link
+    -var selected = 'Admin page';
+
+block title
+    title Admin page
+
+block content
+    section.aboutbox
+        .aboutbox-header Admin page
+        .aboutbox-body.clearfix
+            .projects-wrapper
+
+                form.form-skill(action='/admin/skills' method="POST")
+                    .form-title Счетчики
+                        if (msgskill)
+                            .status= msgskill
+                        .form-group
+                            label.label(for="age") #{skills[0].text}
+                            input.input#name(name="age" type="number" placeholder="Введите Возраст", qtip-content="Вы не ввели Возраст" value=skills[0].number)
+                        .form-group
+                            label.label(for="concerts") #{skills[1].text}
+                                input.input#name(name="concerts" type="number", placeholder="Введите логин", qtip-content="Вы не ввели логин" value=skills[1].number)
+                        .form-group
+                            label.label(for="cities") #{skills[2].text}
+                                input.input#name(name="cities" type="number", placeholder="Введите логин", qtip-content="Вы не ввели логин" value=skills[2].number)
+                        .form-group
+                            label.label(for="years") #{skills[3].text}
+                                input.input#name(name="years" type="number", placeholder="Введите логин", qtip-content="Вы не ввели логин" value=skills[3].number)
+                        .form-group
+                            button.btn(type="submit") Сохранить
+
+    include ../common/popup.pug
+
+

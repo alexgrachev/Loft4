@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86f89743-8530-44d2-8624-4da477442b06" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/common/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/common/footer.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/common/navigate.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/common/navigate.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contact-me.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contact-me.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/my-work.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/my-work.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,12 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -31,8 +39,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="17">
+              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -40,13 +48,21 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="530">
+              <caret line="146" lean-forward="true" selection-start-line="142" selection-end-line="146" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authorised</find>
+      <find>db.</find>
+      <find>selected</find>
+      <find>contact</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +71,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/controllers/ctrlLogin.js" />
+        <option value="$PROJECT_DIR$/views/common/footer.pug" />
+        <option value="$PROJECT_DIR$/views/pages/my-work.pug" />
+        <option value="$PROJECT_DIR$/views/common/navigate.pug" />
+        <option value="$PROJECT_DIR$/models/db.json" />
+        <option value="$PROJECT_DIR$/views/pages/admin.pug" />
+        <option value="$PROJECT_DIR$/controllers/admin.js" />
+        <option value="$PROJECT_DIR$/email_config.json" />
+        <option value="$PROJECT_DIR$/public/js/main.min.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/pages/contact-me.pug" />
         <option value="$PROJECT_DIR$/controllers/index.js" />
       </list>
     </option>
@@ -69,7 +95,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="654" />
     <option name="y" value="63" />
     <option name="width" value="1017" />
@@ -85,18 +111,30 @@
         <subPane>
           <expand>
             <path>
-              <item name="koa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa" type="462c0819:PsiDirectoryNode" />
+              <item name="loft4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loft4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="koa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="loft4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loft4" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="koa" type="b2602c69:ProjectViewProjectNode" />
-              <item name="koa" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="loft4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loft4" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loft4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loft4" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loft4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loft4" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -107,13 +145,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,30 +180,36 @@
       <option name="presentableId" value="Default" />
       <updated>1554136550561</updated>
       <workItem from="1554136551860" duration="4479000" />
+      <workItem from="1554185648936" duration="1394000" />
+      <workItem from="1554191126378" duration="726000" />
+      <workItem from="1554272409978" duration="652000" />
+      <workItem from="1555316906570" duration="1042000" />
+      <workItem from="1555910755943" duration="1903000" />
+      <workItem from="1555912676202" duration="15038000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4479000" />
+    <option name="totallyTimeSpent" value="25234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="63" width="1017" height="877" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21278721" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10958904" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32677165" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.34514436" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29799107" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27566963" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -176,39 +221,120 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/index.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/db.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/addUser.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/db.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/password.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/verify.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ctrlAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
@@ -224,6 +350,406 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/_template-admin.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ctrlLogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/ctrlAdmin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/main_layout.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layouts/login_layout.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/header.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/head.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/footer.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/contacts.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/vendor.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/login.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/popup.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/common/navigate.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/my-work.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/grachev/WebstormProjects/loft4">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/Base.js#stringify#174;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/FileAsync.js#Base#1666;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/adapters/FileAsync.js#fs#1575;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/adapters/FileAsync.js#pify#1608;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/adapters/FileAsync.js#steno#1636;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/FileSync.js#Base#1511;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/adapters/FileSync.js#fs#1478;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/LocalStorage.js#Base#1504;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/Memory.js#Base#1478;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/urijs/src/URI.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/adapters/_stringify.js</node>
+            <node x="" y="">$PROJECT_DIR$/models/addUser.js#db#129;C:/Users/grachev/WebstormProjects/loft4/models/addUser.js#psw#159;C:/Users/grachev/WebstormProjects/loft4/models/addUser.js#readline#6;</node>
+            <node x="" y="">$PROJECT_DIR$/views/pages/admin.html</node>
+            <node x="" y="">$PROJECT_DIR$/controllers/admin.js#_path#6;C:/Users/grachev/WebstormProjects/loft4/controllers/admin.js#db#94;C:/Users/grachev/WebstormProjects/loft4/controllers/admin.js#fs#67;C:/Users/grachev/WebstormProjects/loft4/controllers/admin.js#util#37;</node>
+            <node x="" y="">$PROJECT_DIR$/public/assets/js/admin.js#_module#517;</node>
+            <node x="" y="">$PROJECT_DIR$/app.js#Koa#45;C:/Users/grachev/WebstormProjects/loft4/app.js#Pug#174;C:/Users/grachev/WebstormProjects/loft4/app.js#config#308;C:/Users/grachev/WebstormProjects/loft4/app.js#fs#19;C:/Users/grachev/WebstormProjects/loft4/app.js#router#344;C:/Users/grachev/WebstormProjects/loft4/app.js#session#96;C:/Users/grachev/WebstormProjects/loft4/app.js#static#136;</node>
+            <node x="" y="">$PROJECT_DIR$/public/assets/js/app.js#_module#517;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/example/app.js.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa/lib/application.js#Emitter#444;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#Stream#509;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#compose#251;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#context#330;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#convert#603;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#debug#117;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#deprecate#643;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#http#543;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#isGeneratorFunction#55;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#isJSON#291;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#onFinished#168;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#only#573;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#request#368;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#response#211;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#statuses#406;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/application.js#util#479;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/attributes.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/attributes.js#str#110;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/base.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/support/benchmark.js#pug#71;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/support/benchmark.js#uubench#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/code.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/code.js#str#104;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/lib/common.js#isPromise#19;</node>
+            <node x="" y="">$PROJECT_DIR$/views/pages/contact-me.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa/lib/context.js#Cookies#249;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/context.js#createError#85;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/context.js#delegate#172;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/context.js#httpAssert#129;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/context.js#statuses#211;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/context.js#util#55;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-session/lib/context.js#Session#76;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/lib/context.js#debug#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/lib/context.js#util#114;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/cookies.js#urllib#50;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/data-stream.js#stream#21;</node>
+            <node x="" y="">$PROJECT_DIR$/models/db.js#FileSync#36;C:/Users/grachev/WebstormProjects/loft4/models/db.js#low#6;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/dynamicscript.js#pug#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/each.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/each.js#str#104;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/extend.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/extend.js#str#106;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/flow.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/form.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/form.js#str#104;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/example/helpers/format-date.js.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/lib/fp.js#common#120;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/lib/fp.js#flow#19;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/lib/fp.js#get#54;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/lib/fp.js#set#87;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/get.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js#net#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js#tls#89;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js#urllib#117;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/includes.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/includes.js#str#108;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/babel-types/index.d.ts#Expression#29804;C:/Users/grachev/WebstormProjects/loft4/node_modules/@types/babel-types/index.d.ts#File#3173;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/@types/babylon/index.d.ts#Expression#349;C:/Users/grachev/WebstormProjects/loft4/node_modules/@types/babylon/index.d.ts#File#343;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/path-to-regexp/index.d.ts</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-body/index.d.ts#Koa#7;</node>
+            <node x="" y="">$PROJECT_DIR$/views/pages/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/example/helpers/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/example/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/src/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/index.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/co-body/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-strip-comments/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/accepts/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cache-content-type/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.camelcase/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-linker/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isobject/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-code-gen/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.endswith/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js#LeUnix#161;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/sendmail-transport/index.js#LeWindows#118;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/sendmail-transport/index.js#packageData#67;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/sendmail-transport/index.js#shared#198;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/sendmail-transport/index.js#spawn#29;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js#LeUnix#172;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/stream-transport/index.js#LeWindows#109;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/stream-transport/index.js#packageData#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/stream-transport/index.js#shared#72;</node>
+            <node x="" y="">$PROJECT_DIR$/controllers/index.js#_path#32;C:/Users/grachev/WebstormProjects/loft4/controllers/index.js#db#179;C:/Users/grachev/WebstormProjects/loft4/controllers/index.js#fs#6;C:/Users/grachev/WebstormProjects/loft4/controllers/index.js#psw#139;C:/Users/grachev/WebstormProjects/loft4/controllers/index.js#util#63;C:/Users/grachev/WebstormProjects/loft4/controllers/index.js#verifyForm#93;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js#DataStream#241;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#EventEmitter#87;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#PassThrough#300;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#crypto#207;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#net#125;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#os#181;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#packageInfo#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#shared#337;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-connection/index.js#tls#153;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-transport/index.js#EventEmitter#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-transport/index.js#SMTPConnection#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-transport/index.js#XOAuth2#196;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-transport/index.js#packageData#235;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-transport/index.js#shared#159;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-transport/index.js#wellKnown#115;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.merge/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/json-transport/index.js#packageData#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/json-transport/index.js#shared#72;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js#EventEmitter#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/ses-transport/index.js#LeWindows#149;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/ses-transport/index.js#packageData#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/ses-transport/index.js#shared#112;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mail-composer/index.js#MimeNode#51;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mail-composer/index.js#mimeFuncs#93;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/addressparser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.forin/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/index.js#services#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/lib/index.js#filters#343;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#fs#141;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#generateCode#415;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#lex#193;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#link#381;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#load#311;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#parse#276;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#path#165;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#runtime#459;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#runtimeWrap#497;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/lib/index.js#stripComments#225;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/index.js#base64#54;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-funcs/index.js#mimeTypes#120;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-funcs/index.js#qp#91;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/index.js#EventEmitter#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/index.js#PoolResource#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/index.js#SMTPConnection#110;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/index.js#packageData#245;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/index.js#shared#208;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/index.js#wellKnown#164;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/index.js#LastNewline#499;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#PassThrough#228;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#addressparser#413;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#base64#376;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#crypto#90;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#fetch#464;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#fs#150;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#mimeFuncs#303;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#os#124;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#punycode#176;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#qp#347;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mime-node/index.js#shared#265;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth2/index.js#Stream#30;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/xoauth2/index.js#crypto#97;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/xoauth2/index.js#fetch#62;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/xoauth2/index.js#shared#131;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/shared/index.js#assign#6890;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/shared/index.js#fetch#136;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/shared/index.js#fs#110;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/shared/index.js#urllib#49;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/shared/index.js#util#80;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js#DKIM#203;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#EventEmitter#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#MailComposer#153;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#MailMessage#421;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#crypto#524;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#dns#496;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#httpProxyClient#236;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#mimeTypes#98;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#net#468;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#packageData#370;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#shared#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#urllib#339;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/index.js#util#309;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/base64/index.js#Transform#33;</node>
+            <node x="" y="">$PROJECT_DIR$/routes/index.js#Router#6;C:/Users/grachev/WebstormProjects/loft4/routes/index.js#controllers#109;C:/Users/grachev/WebstormProjects/loft4/routes/index.js#ctrlAdmin#157;C:/Users/grachev/WebstormProjects/loft4/routes/index.js#koaBody#73;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/index.js#Cookies#195;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#PassThrough#158;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#http#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#https#51;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#packageData#233;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#urllib#83;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/fetch/index.js#zlib#114;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/error-inject/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/uid-safe/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/steno/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/index.js#MessageParser#122;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#PassThrough#266;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#RelaxedBody#173;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#crypto#359;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#fs#303;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#path#329;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/index.js#sign#220;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/qp/index.js#Transform#33;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/statuses/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-type/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/fresh/index.js</node>
+            <node x="" y="">crc32;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-runtime/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-load/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/parseurl/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-static/index.js#assert#135;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-static/index.js#debug#54;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-static/index.js#path#113;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-static/index.js#send#168;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.assign/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-router/node_modules/koa-compose/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/methods/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/is-type-of/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-send/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/is-promise/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-body/index.js#buddy#219;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-body/index.js#forms#251;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-filters/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/on-finished/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-lexer/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/index.js#pug.js#31;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-parser/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-session/index.js#ContextSession#68;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/index.js#assert#153;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/index.js#debug#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/index.js#is#220;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/index.js#uid#187;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-session/index.js#util#117;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-is-json/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/is-generator-function/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/formidable/lib/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/delegates/index.js</node>
+            <node x="" y="">is;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-convert/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-compose/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/destroy/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-errors/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/vary/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/http-assert/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash.isplainobject/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pify/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/only/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/escape-html/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/cookies/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/content-disposition/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/depd/index.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/index.js.html</node>
+            <node x="" y="">$PROJECT_DIR$/config/index.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/last-newline.js#Transform#33;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-router/lib/layer.js#debug#4;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/layer.js#pathToRegExp#48;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/layer.js#uri#94;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/layout-debug.js#pug#38;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/layout.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/layout.js#str#106;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-unix.js#stream#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/le-windows.js#stream#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/src/load-helpers.js#camelCase#96;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/load-helpers.js#forIn#60;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/load-helpers.js#fs#140;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/load-helpers.js#isObject#18;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/load-helpers.js#mod#968;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/load-helpers.js#path#163;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/src/load-helpers.js.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/lodash.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/mail-message.js#MimeNode#58;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/mail-message.js#mimeFuncs#100;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/mailer/mail-message.js#shared#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/lib/main.js#isPromise#51;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/lib/main.js#lodash#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/message-parser.js#Transform#33;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/mime-types.js#path#50;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/mixins.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/mixins.js#str#106;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/lib/nano.js#common#19;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js#JSONTransport#299;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#Mailer#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#SESTransport#350;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#SMTPPool#93;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#SMTPTransport#134;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#SendmailTransport#185;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#StreamTransport#244;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#fetch#399;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#packageData#433;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/nodemailer.js#shared#57;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/package.json</node>
+            <node x="" y="">$PROJECT_DIR$/libs/password.js#crypto#6;C:/Users/grachev/WebstormProjects/loft4/libs/password.js#db#40;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/pool-resource.js#EventEmitter#158;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/pool-resource.js#SMTPConnection#21;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/pool-resource.js#XOAuth2#119;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/smtp-pool/pool-resource.js#assign#84;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/prettify.css</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/prettify.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/src/pug.js#assign#199;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#endsWith#157;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#forIn#325;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#fs#55;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#isPlainObject#273;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#loadHelpers#361;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#merge#237;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#path#78;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#pkg#18;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#pug#105;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-pug/src/pug.js#util#130;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/koa-pug/src/pug.js.html</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/register.js#pug#4;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/relaxed-body.js#Transform#101;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/relaxed-body.js#crypto#136;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa/lib/request.js#URL#61;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#accepts#115;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#contentType#151;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#fresh#342;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#net#87;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#only#374;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#parse#237;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#qs#272;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#stringify#208;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#typeis#307;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/request.js#util#404;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa/lib/response.js#assert#444;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#contentDisposition#55;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#destroy#408;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#ensureErrorHandler#114;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#escape#293;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#extname#488;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#getType#166;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#isJSON#254;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#onFinish#213;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#only#549;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#statuses#370;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#typeis#341;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#util#579;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa/lib/response.js#vary#519;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-router/lib/router.js#HttpError#244;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/router.js#Layer#318;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/router.js#compose#206;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/router.js#debug#162;C:/Users/grachev/WebstormProjects/loft4/node_modules/koa-router/lib/router.js#methods#284;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/rss.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/rss.js#str#103;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/services.json</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-session/lib/session.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/set.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/sign.js#crypto#103;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/sign.js#mimeFuncs#59;C:/Users/grachev/WebstormProjects/loft4/node_modules/nodemailer/lib/dkim/sign.js#punycode#21;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-pug/coverage/lcov-report/sorter.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/text.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/text.js#str#104;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/koa-session/lib/util.js#crc#27;</node>
+            <node x="" y="">$PROJECT_DIR$/libs/verify.js</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/lowdb/webpack.config.js#path#4;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/webpack.config.js#pkg#64;C:/Users/grachev/WebstormProjects/loft4/node_modules/lowdb/webpack.config.js#webpack#31;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug/examples/whitespace.js#pug#38;C:/Users/grachev/WebstormProjects/loft4/node_modules/pug/examples/whitespace.js#str#110;</node>
+            <node x="" y="">$PROJECT_DIR$/node_modules/pug-runtime/wrap.js</node>
+            <node x="" y="">/favicon.ico</node>
+            <node x="" y="">/js/vendor.min.js</node>
+            <node x="" y="">assert</node>
+            <node x="" y="">spawn;</node>
+            <node x="" y="">crypto</node>
+            <node x="" y="">css/main.min.css</node>
+            <node x="" y="">css/vendor.min.css</node>
+            <node x="" y="">dns</node>
+            <node x="" y="">EventEmitter;</node>
+            <node x="" y="">fonts/fira.css</node>
+            <node x="" y="">fonts/proximanovacond-semibold.css</node>
+            <node x="" y="">readFileSync;</node>
+            <node x="" y="">fullPath</node>
+            <node x="" y="">http</node>
+            <node x="" y="">https</node>
+            <node x="" y="">img/face.png</node>
+            <node x="" y="">img/logo.png</node>
+            <node x="" y="">js/main.min.js</node>
+            <node x="" y="">koa</node>
+            <node x="" y="">module</node>
+            <node x="" y="">net</node>
+            <node x="" y="">os</node>
+            <node x="" y="">extname;</node>
+            <node x="" y="">pug</node>
+            <node x="" y="">punycode</node>
+            <node x="" y="">querystring</node>
+            <node x="" y="">readline</node>
+            <node x="" y="">PassThrough;Stream;Transform;</node>
+            <node x="" y="">tls</node>
+            <node x="" y="">URL;format;</node>
+            <node x="" y="">util</node>
+            <node x="" y="">uubench</node>
+            <node x="" y="">webpack</node>
+            <node x="" y="">zlib</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1297200102748523" x="2014.5" y="1936.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/skills.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/password.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/verify.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="54" column="6" lean-forward="true" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/addUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/admin.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="68" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="24" column="60" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../loft3/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" selection-start-line="21" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="204" column="33" lean-forward="true" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/contact-me.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="146" lean-forward="true" selection-start-line="142" selection-end-line="146" />
         </state>
       </provider>
     </entry>

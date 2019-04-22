@@ -9,3 +9,11 @@ nav.navigation
 			else
 				li.navigation-item
 					a.navigation-link(href=val)= key
+
+		if authorised
+			if selected === 'Admin page'
+				li.navigation-item.current
+					a.navigation-link(href='/admin')= 'Admin page'
+			else
+				li.navigation-item
+					a.navigation-link(href='/admin')= 'Admin page'
